@@ -115,6 +115,68 @@ The General AI component of LifeCoach AI is designed to handle everyday tasks an
      - For web searches: Google Search API or web scraping.
      - For YouTube: YouTube Data API or direct URL opening.
 
+Features
+
+🔹 NLP Utilities (nlp_utils.py)
+
+Sentiment Analysis: Understands emotions in text
+
+Intent Detection: Classifies user queries into predefined categories
+
+🔹 Speech Processing (speech.py)
+
+Speech Recognition: Listens to user voice commands
+
+Text-to-Speech (TTS): Converts text to spoken output using pyttsx3 and gTTS
+
+🔹 Wikipedia Integration (wiki_integration.py)
+
+Fetches summaries of Wikipedia articles
+
+Auto-detects language and suggests alternative topics
+
+🔹 Search & Web Automation (utils.py)
+
+Google Search: Scrapes and fetches top search results
+
+YouTube Automation: Opens and plays content on YouTube
+
+App Launcher: Opens apps like WhatsApp, Instagram, and Notepad
+
+🔹 Mental Health Toolkit (mental_health.py)
+
+Mood Tracker: Logs moods and provides analysis
+
+Guided Meditation & Breathing Exercises
+
+Crisis Detection: Detects emergency phrases and offers crisis support
+
+ Installation
+
+1️. Prerequisites
+Ensure you have Python 3.8+ installed. Download it from python.org.
+
+2.The project uses the following Python libraries:
+
+transformers:(For NLP and intent detection)
+
+speechrecognition: (For voice commands)
+
+pyttsx3 and gtts: (For text-to-speech conversion)
+
+wikipedia-api: (For Wikipedia integration)
+
+requests and BeautifulSoup4: (For web scraping)
+
+langdetect: (For language detection)
+
+random, datetime, subprocess, json, os, time (Built-in modules)
+
+3️⃣ Running the Assistant
+
+Run the script using:
+The code which is provided
+
 ## Future Improvements
 We aim to improve LifeCoach AI by: continuousl
 - Enhancing the accuracy of voice recognition and NLP.
